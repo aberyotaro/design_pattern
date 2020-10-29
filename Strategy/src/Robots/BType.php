@@ -6,7 +6,7 @@ use App\Functions\FourLeggedWalk;
 
 class BType extends Robot
 {
-    public function display()
+    public function execute()
     {
         $walkStyle = new FourLeggedWalk();
         return $walkStyle->walk();

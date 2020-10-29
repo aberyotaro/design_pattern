@@ -4,5 +4,5 @@ namespace App\Robots;
 
 abstract class Robot
 {
-    abstract protected function display();
+    abstract public function execute();
 }

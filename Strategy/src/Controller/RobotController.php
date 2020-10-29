@@ -2,14 +2,12 @@
 
 namespace App\Controller;
 
-use App\Robots\AType;
-use App\Robots\BType;
+use App\Robots\Robot;
 
 class RobotController
 {
-    public function index()
+    public function display(Robot $robot)
     {
-        $robot = new AType();
-        return $robot->display();
+        return $robot->execute();
     }
 }
