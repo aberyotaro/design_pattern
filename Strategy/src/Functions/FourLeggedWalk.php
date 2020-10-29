@@ -2,9 +2,9 @@
 
 namespace App\Functions;
 
-use App\Contracts\Walk;
+use App\Contracts\WalkInterface;
 
-class FourLeggedWalk implements Walk
+class FourLeggedWalk implements WalkInterface
 {
     public function walk()
     {

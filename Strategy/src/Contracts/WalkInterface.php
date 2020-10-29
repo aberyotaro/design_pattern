@@ -2,7 +2,7 @@
 
 namespace App\Contracts;
 
-interface Walk
+interface WalkInterface
 {
     public function walk();
 }
